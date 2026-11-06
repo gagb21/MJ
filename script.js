@@ -3,7 +3,7 @@
 // =====================================================
 
 const PASSWORD = "rosa"; // se compara sin distinguir mayúsculas
-const TARGET_DATE = new Date('2026-11-06T10:15:00-05:00'); // 10:15 a. m. hora de Colombia
+const TARGET_DATE = new Date('2026-11-06T10:40:00-05:00'); // 10:15 a. m. hora de Colombia
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 const cover = document.getElementById('cover');
