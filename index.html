@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🌙 MJ 🌙</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Caveat:wght@500;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="paper-bg" aria-hidden="true"></div>
+<div class="petals" aria-hidden="true" id="petals"></div>
+
+<audio id="background-music" src="xxx.mp3" loop preload="none"></audio>
+
+<!-- ============ PORTADA ============ -->
+<section class="cover" id="cover" aria-label="Portada">
+  <div class="cover__moon" aria-hidden="true"></div>
+
+  <h1 class="cover__title">Marcela</h1>
+  <p class="cover__subtitle">Unas palabras guardadas para ti, con cariño.</p>
+
+  <button type="button" class="seal-button" id="open-seal" aria-expanded="false" aria-controls="gate-form">
+    Abrir
+  </button>
+
+  <form class="gate-form" id="gate-form" hidden novalidate>
+    <label class="gate-form__label" for="password-input">Ingresa la contraseña</label>
+    <div class="gate-form__row">
+      <input
+        class="gate-form__input"
+        type="password"
+        id="password-input"
+        name="password"
+        autocomplete="off"
+        inputmode="text"
+        aria-describedby="gate-form-error">
+      <button type="submit" class="gate-form__submit" aria-label="Entrar">Entrar</button>
+    </div>
+    <p class="gate-form__error" id="gate-form-error" role="alert" aria-live="polite"></p>
+  </form>
+</section>
+
+<!-- ============ CONTENIDO ============ -->
+<div class="message-container" id="content">
+
+  <div class="pre-opening" id="pre-opening">
+    <p class="message">06/11/2026</p>
+    <p class="message">Marcela</p>
+    <p class="info">Este espacio fue preparado con mucho cariño para ti...</p>
+    <p class="message" aria-hidden="true">🌙</p>
+    <div class="countdown" id="countdown" role="status" aria-live="polite"></div>
+    <button type="button" class="access-button" id="open-letter" disabled>Ver más</button>
+  </div>
+
+  <div class="full-content" id="full-content">
+
+    <div class="letter-heading">
+      <p class="message">06/11/2026</p>
+    </div>
+
+    <div class="image-container">
+      <div class="photo-frame letter-photo">
+        <img src="./xxx.jpg" alt="Fotografía especial compartida en esta carta" loading="eager">
+      </div>
+    </div>
+
+    <div class="letter-text">
+      <p class="letter-greeting">🌹🌹...</p>
+
+      <p>Yo sé que sabes muy bien lo desmemoriado que soy, cosa que no me cuesta aceptar. Sin embargo, también sé que, aunque a veces no recuerde las palabras exactas, las fechas o lo que decía un mensaje, sí recuerdo los hechos y, sobre todo, lo que me hicieron sentir y lo que me aportaron en su momento.</p>
+
+      <p>Muchas veces, y me disculpas por generalizar, las personas no respondemos a lo que sentimos, sino a lo que podemos sostener. Me incluyo, porque sé que también me ha pasado. Hoy puedo reconocerlo y entender mejor lo que eso implica.</p>
+
+      <p>En el poco tiempo que hemos compartido, he podido conocer a esa linda persona que llevas dentro. He visto en ti a una mujer maravillosa, con una luz muy bonita. Una mujer que no tiene miedo de amar, que es atenta, que está presente, que es recíproca y que sabe comunicarse. Tu forma de dar amor y atención deja algo bonito en las personas con las que decides compartir tu vida.</p>
+
+      <p>Tal vez durante este tiempo has sentido que he sido ajeno a lo que eres, a lo que me has mostrado y a lo que transmites. Como no te lo he dicho ni me he tomado el tiempo de expresártelo, puede parecer que no me he dado cuenta. Pero créeme, sí lo he notado. Me fijo más en los detalles de lo que quizás te he demostrado.</p>
+
+      <p>Eres una persona que se permite compartir sus miedos, sus dudas y sus ganas, y que también se deja abrazar por completo. Eso me parece muy lindo.</p>
+
+      <p>Pero bueno, también quiero hablarte un poquito de mí. Como te dije hace poco, llevo un tiempo tratando de sanar heridas y de encontrar mi felicidad. Y sabes… Algo que también me hace muy feliz es ver felices a las demás personas, sobre todo a aquellas a las que les tengo aprecio y mucho cariño. Tú eres una de ellas.</p>
+
+      <p>Así que créeme que lo que voy a decirte viene con mucha honestidad, con mucho amor y, sobre todo, con mucho respeto por lo que hemos compartido y por todo lo que he podido reconocer en ti.</p>
+
+      <p>Cariño, hoy vivimos en un mundo tan artificial que compartir tiempo y atención se ha vuelto un lujo. Y tú sabes dar ambas cosas sin esperar nada a cambio.</p>
+
+      <p>Hoy, de verdad, me duele un poco pensar que estamos tratando de sostener algo que sabemos que te está haciendo daño. No puedo hacer como si no viera lo que sientes ni ignorar lo que eso también provoca en mí. Sería egoísta de mi parte pensar solo en el placer y decir «que pase lo que tenga que pasar y después miramos», después de haberte visto llorar por esas pequeñas decepciones que se han ido acumulando…</p>
+
+      <p>No sería justo contigo ni conmigo seguir dejando una puerta entreabierta cuando ambos tenemos claro que este vínculo no se va a formalizar. Los dos hemos notado que esto ya empezó a convertirse en una carga emocional para ti, que te está afectando y que de paso en reacción hacia mí también me afecta al verte afectada, eso no está bien. Yo hoy lo veo y no podemos hacer como si no pasara nada.</p>
+
+      <p>Considero que llegó el momento de parar esta forma en la que hemos estado compartiendo, y no te lo digo desde la frialdad ni desde el rechazo. Tú me conoces de alguna manera y sabes que también me preocupo por ti. No es fácil para mí decirlo, pero lo hago porque te tengo cariño, porque quiero cuidarte y porque también necesito cuidar de mí y de cómo me siento por lo que noto y muestras que estás sintiendo. No quiero seguir participando en algo que te lastima, porque eso no me llena.</p>
+
+      <p>Sé que esto nos va a doler a ambos. No sé cuánto tiempo nos tome estar bien, y no quiero fingir que poner este límite va a ser fácil.</p>
+
+      <p>En mi proceso personal, en el que he estado tratando de mirar hacia adentro y entenderme mejor, también me he dado cuenta de cuánto me afecta el bienestar de las personas que quiero. Y como tú me importas, y me importa mucho cómo estás. Por eso necesito ser responsable con lo que siento y con lo que puedo ofrecerte. No quiero que sigamos en una situación que nos quite la paz, ni que el cariño que nos tenemos se convierta en una razón para prolongar algo que nos duele.</p>
+
+      <p>Tampoco puedo ser ajeno a que esta decisión no repercute en mí, obvio sí, también me cuesta. Pero quiero que estemos bien a futuro, Cariño.</p>
+
+      <p>Eso de que tengas que convencerte una y otra vez de que esto no te duele para quedarte. Yo ya he pasado por eso y, créeme, nadie se merece vivir así.</p>
+
+      <p>El amor, sobre todo el propio, también implica reconocer cuándo algo te está haciendo daño.</p>
+
+      <p>Por último, gracias, Cariño. De verdad por todo esto, porque después de todo lo vivido y compartido, me queda todo lo bonito que compartimos y eso es algo que siempre voy a recordar y tener en mi corazón. Créelo.</p>
+
+      <p>De mi parte, siempre sabrás donde encontrarme, porque en este caso, contigo hago una excepción y no tengo motivos para sacarte de mi vida (sabes a qué me refiero con eso porque lo hemos discutido), tienes de mi parte la puerta abierta. Y si solo quieres pensarme o recordar lo que vivimos, te dejo este mensaje que quedará guardado con mucho amor para ti, aunque también podrás recordarme en la luz que a veces trae noche...</p>
+    </div>
+
+    <p class="letter-sign">Con cariño...</p>
+    <p class="message" aria-hidden="true">🌙</p>
+
+    <div class="divider" aria-hidden="true"><span class="divider__mark">✦</span></div>
+
+    <p class="postscript">Post: Siempre me gustó mucho decirte Rosa...</p>
+
+    <div class="closing">
+      <button type="button" class="access-button" id="go-back">Volver atrás</button>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
